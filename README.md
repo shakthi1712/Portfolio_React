@@ -89,12 +89,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-
-Your Name - [your-email@example.com](mailto:your-email@example.com)
-
-Project Link: [https://github.com/yourusername/react-portfolio](https://github.com/yourusername/react-portfolio)
-
 ---
 
 Feel free to customize this template according to your specific project details and preferences!
