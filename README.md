@@ -38,7 +38,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/react-portfolio.git
+   https://github.com/shakthi1712/Portfolio_React.git
    ```
 2. Navigate to the project directory:
    ```sh
