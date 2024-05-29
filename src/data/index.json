@@ -1,0 +1,68 @@
+{
+    "skills":[
+
+        {
+            "id":1,
+            "src":"./img/feather-pen-1.png",
+            "title":"Frontend",
+            "description": "Expertise in HTML5, CSS3, JavaScript (ES6+), and modern front-end framework React."
+
+        },
+        {
+            "id":2,
+            "src":"./img/feather-pen-2.png",
+            "title":"Backend",
+            "description": "A beginner backend developer, I am adept in programming languages like Python,Node Js."
+
+        },
+        {
+            "id":3,
+            "src":"./img/feather-pen-1.png",
+            "title":"Programming",
+            "description": "Skilled in the C programming language with a solid core programming principles."
+
+        },
+        {
+            "id":1,
+            "src":"./img/feather-pen-2.png",
+            "title":"UI/UX",
+            "description": "As an UI/UX Designer,I bring a blend of creativity across a range of digital platforms."
+
+        }
+    ],
+    "portfolio":[
+
+        {
+            "id":1,
+            "src":"https://i.ytimg.com/vi/Zb1zVeXLUf8/maxresdefault.jpg",
+            "title":"Youtube clone",
+            "description": "Simplified version of YouTube, a popular video-sharing platform, using the MERN stack",
+            "link":"https://youtube-clone-react-alpha.vercel.app/"
+
+        },
+        {
+            "id":2,
+            "src":"https://miro.medium.com/v2/resize:fit:1200/1*r15pEgSRTumHt4sQyHh5Ug.png",
+            "title":"CRUD app ",
+            "description": "React and Express CRUD app developed to learn the complete working flow of MERN stack",
+            "link":"https://react-crudapp-plum.vercel.app/"
+
+        },
+        {
+            "id":3,
+            "src":"https://www.datocms-assets.com/48294/1671537942-mern-stack-1-mern-stack.png?auto=format",
+            "title":"Mern Authentication",
+            "description": "React and Express Authentication developed to learn the complete working flow of MERN stack",
+            "link":"https://mern-authentication-back-end.vercel.app/"
+
+        },
+        {
+            "id":1,
+            "src":"https://i.ytimg.com/vi/LX8_z1nvqk4/maxresdefault.jpg",
+            "title":"Calculater",
+            "description": "HTML and javascript calculater developed to learn the complete working of HTML,CSS,Javascript",
+            "link":"https://shakthi1712.github.io/calculator/"
+
+        }
+    ]
+}
