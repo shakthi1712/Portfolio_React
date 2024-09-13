@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import DarkModeToggle from "./DarkModeToggle";
+
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
 
@@ -33,7 +33,7 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div className="logo--img">
-                <img src="./img/logo.png" alt="SV."/>
+                <span>portfolio.</span> 
             </div>
             <a className={`nav__hamburger ${navActive ? "active" : ""}`}
                 onClick={toggleNav} >
@@ -61,9 +61,9 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="AboutMe"
+                            to="myskills"
                             className="navbar--content"
-                        >About Me</Link>
+                        >Skills </Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu}
@@ -85,7 +85,7 @@ function Navbar() {
                             duration={500}
                             to="Credetials"
                             className="navbar--content"
-                        >Credetials</Link>
+                        >Qualification</Link>
                         </li>
                         <li>
                         <Link
@@ -100,7 +100,7 @@ function Navbar() {
                         </li>
                 </ul>
             </div>
-            <Link
+            {/* <Link
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
@@ -108,10 +108,13 @@ function Navbar() {
                 duration={500}
                 to="dark"
                 className="btn">
-                <DarkModeToggle /></Link>
+                <DarkModeToggle /></Link> */}
                 {/* <div className="dark">
                 <DarkModeToggle />
                 </div> */}
+                <div>
+
+                </div>
                
         </nav>
     )

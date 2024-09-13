@@ -1,6 +1,5 @@
 import HeroSectio from "../HeroSection";
 import MySkills from "../MySkills";
-import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio";
 import Credentials from "../Credentials";
 import ContactMe from "../ContactMe";
@@ -12,7 +11,6 @@ export default function Home(){
         <>
         <HeroSectio />
         <MySkills />
-        <AboutMe />
         <MyPortfolio />
         <Credentials />
         <ContactMe /> 

@@ -33,9 +33,9 @@ export default function MyPortfolio(){
                                 <h3 className="portfolio--section--title">
                                     {item.title}
                                 </h3>
-                                <p className="text-md">
+                                {/* <p className="portfolio-section-p">
                                     {item.description}
-                                </p>
+                                </p> */}
                             </div>
                             <a href= {item.link} className="text-sm portfolio--link">
                                Git-hub link
